@@ -3,3 +3,5 @@ Setting up a kubenetes cluster and lots of attached services with the goal of st
 
 #Install dependencies
 $ pip install --user pipenv
+# ansible script for cluster setup
+ansible-playbook create-gke-cluster.yaml 
